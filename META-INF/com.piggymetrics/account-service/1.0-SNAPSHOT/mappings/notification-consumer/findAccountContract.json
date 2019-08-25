@@ -1,0 +1,16 @@
+{
+  "id" : "9aac1b26-ac08-479f-a75b-e7c5aa9e3547",
+  "request" : {
+    "urlPath" : " /accounts/dummyaccount",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"incomes\":null,\"saving\":null,\"note\":null,\"lastSeen\":null,\"name\":\"Test Account\",\"expenses\":null}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "9aac1b26-ac08-479f-a75b-e7c5aa9e3547"
+}
