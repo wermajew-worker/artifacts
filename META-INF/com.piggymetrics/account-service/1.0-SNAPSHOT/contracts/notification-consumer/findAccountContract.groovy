@@ -7,7 +7,7 @@ Contract.make {
 	}
 	response { 
 		status OK()
-		body('Test Account')
+		body('{"name":"Test Account","lastSeen":null,"incomes":null,"expenses":null,"saving":null,"note":null}')
 		headers { 
 			contentType(applicationJsonUtf8())
 		}
