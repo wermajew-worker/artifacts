@@ -7,7 +7,7 @@ Contract.make {
 	}
 	response { 
 		status OK()
-		body("Test Account")
+		body('Test Account')
 		headers { 
 			contentType(applicationJsonUtf8())
 		}
