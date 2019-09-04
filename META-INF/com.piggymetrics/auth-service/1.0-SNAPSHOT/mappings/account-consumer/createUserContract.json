@@ -1,0 +1,22 @@
+{
+  "id" : "704bfc93-22e7-417c-bb0d-380c23f8336c",
+  "request" : {
+    "urlPath" : "/uaa/users",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json;charset=UTF-8.*"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.['password'] == 'testpassword')]"
+    }, {
+      "matchesJsonPath" : "$[?(@.['username'] == 'testusername')]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "704bfc93-22e7-417c-bb0d-380c23f8336c"
+}
