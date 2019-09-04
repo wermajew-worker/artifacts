@@ -1,0 +1,44 @@
+{
+  "id" : "ca06f62f-4419-400a-9f64-65e9c90e4a0c",
+  "request" : {
+    "urlPath" : "/statistics/dummyaccount",
+    "method" : "PUT",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json;charset=UTF-8.*"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$.['expenses'][*][?(@.['period'] == 'DAY')]"
+    }, {
+      "matchesJsonPath" : "$.['saving'][?(@.['amount'] == 1500)]"
+    }, {
+      "matchesJsonPath" : "$.['expenses'][*][?(@.['amount'] == 10)]"
+    }, {
+      "matchesJsonPath" : "$.['incomes'][*][?(@.['amount'] == 9100)]"
+    }, {
+      "matchesJsonPath" : "$.['saving'][?(@.['capitalization'] == false)]"
+    }, {
+      "matchesJsonPath" : "$.['saving'][?(@.['currency'] == 'USD')]"
+    }, {
+      "matchesJsonPath" : "$.['saving'][?(@.['deposit'] == true)]"
+    }, {
+      "matchesJsonPath" : "$.['expenses'][*][?(@.['title'] == 'Grocery')]"
+    }, {
+      "matchesJsonPath" : "$.['incomes'][*][?(@.['period'] == 'MONTH')]"
+    }, {
+      "matchesJsonPath" : "$.['saving'][?(@.['interest'] == 3.32)]"
+    }, {
+      "matchesJsonPath" : "$.['incomes'][*][?(@.['title'] == 'Salary')]"
+    }, {
+      "matchesJsonPath" : "$.['incomes'][*][?(@.['currency'] == 'USD')]"
+    }, {
+      "matchesJsonPath" : "$.['expenses'][*][?(@.['currency'] == 'USD')]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "ca06f62f-4419-400a-9f64-65e9c90e4a0c"
+}
