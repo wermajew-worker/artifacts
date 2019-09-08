@@ -1,5 +1,5 @@
 {
-  "id" : "cc251a33-96e3-40ef-a9bf-c4b94da6cbd4",
+  "id" : "6a77887f-7086-4333-8594-2a531f7df8e9",
   "request" : {
     "urlPath" : "/accounts/dummyaccount",
     "method" : "GET"
@@ -12,5 +12,5 @@
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "cc251a33-96e3-40ef-a9bf-c4b94da6cbd4"
+  "uuid" : "6a77887f-7086-4333-8594-2a531f7df8e9"
 }
