@@ -1,5 +1,5 @@
 {
-  "id" : "55dc87c0-ac7f-423e-8fef-b6c683cdf426",
+  "id" : "7e166e9b-64c1-4061-9630-f6e33263095b",
   "request" : {
     "urlPath" : "/uaa/users",
     "method" : "POST",
@@ -18,5 +18,5 @@
     "status" : 200,
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "55dc87c0-ac7f-423e-8fef-b6c683cdf426"
+  "uuid" : "7e166e9b-64c1-4061-9630-f6e33263095b"
 }
