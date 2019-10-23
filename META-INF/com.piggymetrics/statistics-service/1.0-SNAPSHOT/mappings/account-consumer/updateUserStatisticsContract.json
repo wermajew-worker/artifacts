@@ -1,5 +1,5 @@
 {
-  "id" : "8da3762c-ff37-400e-b6aa-8f289538aa37",
+  "id" : "77012186-4350-4574-9183-11f6d636d65f",
   "request" : {
     "urlPath" : "/statistics/dummyaccount",
     "method" : "PUT",
@@ -40,5 +40,5 @@
     "status" : 200,
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "8da3762c-ff37-400e-b6aa-8f289538aa37"
+  "uuid" : "77012186-4350-4574-9183-11f6d636d65f"
 }
